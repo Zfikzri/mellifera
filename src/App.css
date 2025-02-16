@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+body{
+  background-color: #F7F3F0;
+}
+
+@theme{
+  --font-primary: 'Open Sans', 'serif';
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Untuk Chrome, Safari, dan Edge */
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* Untuk Internet Explorer dan Edge */
+  scrollbar-width: none;  /* Untuk Firefox */
+}
