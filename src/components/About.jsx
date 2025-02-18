@@ -1,12 +1,14 @@
 import image1 from '../assets/images/image-1.png'
 import handSign from '../assets/images/sign.png'
 import bee from '../assets/images/bee-5.png'
+import bee2 from '../assets/images/bee-1.png'
 import { CheckCircle } from "lucide-react";
 
 function About() {
   return (
     <div className='relative'>
         <img src={bee} alt="" className='absolute right-8 top-100 w-15 h-auto'/>
+        <img src={bee2} alt="" className='absolute right-20 bottom-0 w-18 h-auto'/>
         <div className="flex p-30 gap-15">
         <div className="text-black font-primary flex flex-col gap-5">
             <img src={image1} alt="" />
