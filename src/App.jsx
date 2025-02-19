@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/About';
+import Gallery from './components/Gallery';
 import Home from './components/Home';
 import Navbar from './components/Navbar'
 import Product from './components/Product';
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Product/>
       <Testimoni/>
+      <Gallery/>
     </div>
   );
 }
