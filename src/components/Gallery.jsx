@@ -12,7 +12,7 @@ function Gallery() {
        <img src={bee} alt="" className='absolute top-25 w-15 h-auto left-40'/>
        <div className='flex flex-col font-primary p-10 items-center justify-center text-center mt-40 gap-20'>
          <div className='flex flex-col gap-2'>
-            <h1 className='text-black text-6xl font-bold uppercase'>Our <br /> Gallery</h1>
+            <h1 className='text-black text-6xl font-bold uppercase tracking-wide leading-15'>Our <br /> Gallery</h1>
             <p className='font-medium text-xl max-w-2xl text-gray-700'>Mellifera is a true beehive of activity! Check out the latest news and events in our image gallery and see for yourself.</p>
          </div>
          <div className='flex flex-col gap-6'>
