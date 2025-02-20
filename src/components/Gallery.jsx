@@ -8,7 +8,7 @@ import bee from '../assets/images/bee-5.png'
 
 function Gallery() {
   return (
-    <div className='relative'>
+    <div id='gallery' className='relative'>
        <img src={bee} alt="" className='absolute top-25 w-15 h-auto left-40'/>
        <div className='flex flex-col font-primary p-10 items-center justify-center text-center mt-40 gap-20'>
          <div className='flex flex-col gap-2'>

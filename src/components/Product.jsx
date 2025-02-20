@@ -7,7 +7,7 @@ import bee from '../assets/images/bee-4.png'
 
 function Product() {
     return (
-      <div className='relative'>
+      <div id='product' className='relative'>
         <img src={flower} alt="" className='absolute left-0 rotate-180 top-60 w-50 h-auto'/>
         <img src={bee} alt="" className='absolute left-60 top-20 w-10 h-auto'/>
        <div className="mt-30 flex flex-col p-5 items-center justify-center font-primary gap-5">

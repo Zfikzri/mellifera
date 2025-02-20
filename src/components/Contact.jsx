@@ -3,7 +3,7 @@ import honey from '../assets/images/honey-contact.png'
 
 function Contact() {
   return (
-    <div className='flex font-primary items-center justify-center p-5 gap-20 mt-20'>
+    <div id='contact' className='flex font-primary items-center justify-center p-5 gap-20 mt-20'>
         <img src={honey} alt="" className='' />
         <div className='flex flex-col gap-4 container bg-white p-10 max-w-2xl rounded-lg'>
             <h1 className='text-black text-5xl font-bold tracking-wide'>MORE INFORMATION</h1>

@@ -11,7 +11,7 @@ import line1 from '../assets/images/line-1.png'
 
 function Home() {
   return (
-    <div className="relative">
+    <div id='home' className="relative">
       <img 
         src={textHoney} 
         alt="" 

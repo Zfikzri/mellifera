@@ -6,7 +6,7 @@ import { CheckCircle } from "lucide-react";
 
 function About() {
   return (
-    <div className='relative'>
+    <div id='about' className='relative'>
         <img src={bee} alt="" className='absolute right-8 top-100 w-15 h-auto'/>
         <img src={bee2} alt="" className='absolute right-20 bottom-0 w-18 h-auto'/>
         <div className="flex p-30 gap-15">

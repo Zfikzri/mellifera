@@ -10,14 +10,14 @@ import Testimoni from './components/Testimoni';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#F7F3F0] overflow-auto no-scrollbar h-screen">
+    <div className="min-h-screen bg-[#F7F3F0] overflow-auto no-scrollbar">
       <Navbar />
-      <Home/>
-      <About/>
-      <Product/>
-      <Testimoni/>
-      <Gallery/>
-      <Contact/>
+      <Home  />
+      <About />
+      <Product />
+      <Testimoni />
+      <Gallery />
+      <Contact />
       <Footer/>
     </div>
   );

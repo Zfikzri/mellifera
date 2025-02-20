@@ -4,6 +4,7 @@
 
 body{
   background-color: #F7F3F0;
+  overflow: scroll;
 }
 
 @theme{
@@ -17,4 +18,7 @@ body{
 .no-scrollbar {
   -ms-overflow-style: none;  /* Untuk Internet Explorer dan Edge */
   scrollbar-width: none;  /* Untuk Firefox */
+  overflow: hidden;
+  scrollbar-width: none;
 }
+

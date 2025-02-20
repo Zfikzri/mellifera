@@ -4,7 +4,7 @@ import bee from '../assets/images/bee-1.png'
 
 function Testimoni() {
   return (
-    <div className='relative'>
+    <div id='testimoni' className='relative'>
         <img src={honey} alt="" className='absolute w-50 right-10 top-35 '/>
         <img src={bee} alt="" className='absolute w-10 left-130 top-0 '/>
         <div className='flex mt-30 font-primary gap-20 justify-center items-center'>
